@@ -1,0 +1,112 @@
+/* Write CSS here */
+.bg_container {
+  min-height: 110vh;
+  font-family: 'Roboto';
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 50px;
+}
+.heading_stopwatch {
+  text-align: center;
+  color: #333333;
+  font-size: 35px;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #333333;
+}
+.timerImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer_Image {
+  text-align: center;
+  width: 100%;
+}
+.timer_para {
+  font-size: 21px;
+  font-weight: 600;
+  padding-left: 10px;
+  color: #333333;
+}
+.timerResult_heading {
+  font-size: 42px;
+  font-weight: bold;
+  color: #333333;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+.buttonContainer {
+  padding: 0px;
+}
+.btn {
+  margin: 10px;
+  width: 65px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+}
+.green {
+  background-color: #1db05f;
+}
+.red {
+  background-color: #ef0d36;
+}
+.orange {
+  background-color: #eaa800;
+}
+@media screen and (min-width: 768px) {
+  .bg_container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    background-size: cover;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 18%;
+    padding-top: 50px;
+  }
+  .heading_stopwatch{
+    font-size: 78px;
+  }
+  .cardContainer{
+    width: 400px;
+    height: 280px;
+  }
+  .timerImageContainer{
+    padding-right: 10px;
+    
+  }
+  .timer_Image{
+    width: 110%;
+  }
+  .timer_para{
+    font-size: 35px;
+  }
+  .timerResult_heading{
+    font-size: 45px;
+  }
+  .buttonContainer{
+    margin-bottom: 10px;
+
+  }
+  .btn{
+    width: 100px;
+    height: 40px;
+    font-size: 21px;
+  }
+}
